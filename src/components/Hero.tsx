@@ -19,24 +19,24 @@ const Hero = () => {
           Karen Werner v. Cille Lundqvist
         </h1>
         <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto font-light">
-          Where Elegance Meets Expertise
+          Hvor Elegance Møder Ekspertise
         </p>
         <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-3xl mx-auto">
-          Experience premium hair styling in a modern, sophisticated setting. 
-          Our expert stylists bring your vision to life with precision and care.
+          Oplev professionel hårpleje i moderne, sofistikerede omgivelser. 
+          Vores ekspertfrisører bringer din vision til live med præcision og omhu.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <button
             onClick={() => document.getElementById("about")?.scrollIntoView({ behavior: "smooth" })}
             className="px-8 py-4 bg-primary text-primary-foreground rounded-lg font-medium hover:opacity-90 transition-all shadow-medium hover:shadow-lg"
           >
-            Discover Our Story
+            Læs Vores Historie
           </button>
           <button
             onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}
             className="px-8 py-4 bg-accent text-accent-foreground rounded-lg font-medium hover:opacity-90 transition-all shadow-soft hover:shadow-medium"
           >
-            Get in Touch
+            Kontakt Os
           </button>
         </div>
       </div>

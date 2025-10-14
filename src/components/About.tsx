@@ -4,49 +4,49 @@ const About = () => {
   const values = [
     {
       icon: Scissors,
-      title: "Expert Craftsmanship",
-      description: "Our stylists bring years of experience and continuous training to deliver exceptional results.",
+      title: "Ekspert Håndværk",
+      description: "Vores frisører bringer mange års erfaring og løbende træning for at levere eksceptionelle resultater.",
     },
     {
       icon: Heart,
-      title: "Personalized Care",
-      description: "We listen to your needs and create customized solutions that enhance your natural beauty.",
+      title: "Personlig Pleje",
+      description: "Vi lytter til dine behov og skaber skræddersyede løsninger, der fremhæver din naturlige skønhed.",
     },
     {
       icon: Award,
-      title: "Premium Quality",
-      description: "Using only the finest products and techniques to ensure lasting, beautiful results.",
+      title: "Premium Kvalitet",
+      description: "Vi bruger kun de fineste produkter og teknikker for at sikre varige, smukke resultater.",
     },
   ];
 
   return (
     <section id="about" className="py-24 px-4 bg-secondary/30">
       <div className="container mx-auto max-w-6xl">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-heading font-bold mb-6">About Us</h2>
+      <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-heading font-bold mb-6">Om Os</h2>
           <div className="w-24 h-1 bg-accent mx-auto mb-8"></div>
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Karen Werner v. Cille Lundqvist is more than just a hair salon—it's a destination 
-            for those who appreciate the art of refined styling and exceptional service.
+            Karen Werner v. Cille Lundqvist er mere end bare en frisørsalon—det er en destination 
+            for dem, der sætter pris på kunsten i raffineret styling og exceptionel service.
           </p>
         </div>
 
         <div className="mb-16 prose prose-lg max-w-4xl mx-auto">
           <p className="text-foreground/90 leading-relaxed mb-6">
-            Founded on the principles of elegance, expertise, and authenticity, our salon has become 
-            a haven for clients seeking more than just a haircut. We believe that every visit should 
-            be an experience—one that leaves you feeling confident, refreshed, and truly valued.
+            Grundlagt på principperne om elegance, ekspertise og autenticitet, er vores salon blevet 
+            et fristed for klienter, der søger mere end bare en klipning. Vi mener, at hvert besøg skal 
+            være en oplevelse—en der efterlader dig selvsikker, forfrisket og virkelig værdsat.
           </p>
           <p className="text-foreground/90 leading-relaxed mb-6">
-            Our team of skilled stylists combines traditional techniques with contemporary trends, 
-            ensuring that each service is tailored to your unique style and preferences. From precision 
-            cuts to color transformations, we approach every detail with care and dedication.
+            Vores hold af dygtige frisører kombinerer traditionelle teknikker med moderne trends og 
+            sikrer, at hver behandling er skræddersyet til din unikke stil og præferencer. Fra præcise 
+            klipninger til farveomdannelser behandler vi hver detalje med omhu og dedikation.
           </p>
           <p className="text-foreground/90 leading-relaxed">
-            Step into our modern, welcoming space where luxury meets comfort. We're committed to 
-            using sustainable, high-quality products that nourish your hair while protecting the 
-            environment. Your satisfaction is our priority, and we look forward to helping you 
-            achieve the look you've always wanted.
+            Træd ind i vores moderne, indbydende rum, hvor luksus møder komfort. Vi er forpligtet til 
+            at bruge bæredygtige produkter af høj kvalitet, der nærer dit hår og samtidig beskytter 
+            miljøet. Din tilfredshed er vores prioritet, og vi ser frem til at hjælpe dig med at 
+            opnå det look, du altid har ønsket dig.
           </p>
         </div>
 

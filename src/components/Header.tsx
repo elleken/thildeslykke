@@ -26,25 +26,25 @@ const Header = () => {
             onClick={() => scrollToSection("home")}
             className="text-foreground hover:text-accent transition-colors font-medium"
           >
-            Home
+            Hjem
           </button>
           <button
             onClick={() => scrollToSection("about")}
             className="text-foreground hover:text-accent transition-colors font-medium"
           >
-            About Us
+            Om Os
           </button>
           <button
             onClick={() => scrollToSection("products")}
             className="text-foreground hover:text-accent transition-colors font-medium"
           >
-            Products
+            Produkter
           </button>
           <button
             onClick={() => scrollToSection("contact")}
             className="text-foreground hover:text-accent transition-colors font-medium"
           >
-            Contact
+            Kontakt
           </button>
         </div>
 
@@ -67,25 +67,25 @@ const Header = () => {
               onClick={() => scrollToSection("home")}
               className="text-left text-foreground hover:text-accent transition-colors font-medium py-2"
             >
-              Home
+              Hjem
             </button>
             <button
               onClick={() => scrollToSection("about")}
               className="text-left text-foreground hover:text-accent transition-colors font-medium py-2"
             >
-              About Us
+              Om Os
             </button>
             <button
               onClick={() => scrollToSection("products")}
               className="text-left text-foreground hover:text-accent transition-colors font-medium py-2"
             >
-              Products
+              Produkter
             </button>
             <button
               onClick={() => scrollToSection("contact")}
               className="text-left text-foreground hover:text-accent transition-colors font-medium py-2"
             >
-              Contact
+              Kontakt
             </button>
           </div>
         </div>

@@ -11,7 +11,7 @@ const Footer = () => {
               Karen Werner v. Cille Lundqvist
             </h3>
             <p className="text-primary-foreground/80 leading-relaxed">
-              Your destination for premium hair styling and exceptional service.
+              Din destination for professionel hårpleje og exceptionel service.
             </p>
           </div>
 
@@ -19,11 +19,11 @@ const Footer = () => {
           <div>
             <h4 className="font-heading font-semibold mb-4 flex items-center gap-2">
               <MapPin className="w-5 h-5 text-accent" />
-              Location
+              Placering
             </h4>
             <p className="text-primary-foreground/80 leading-relaxed">
-              123 Elegant Street<br />
-              Copenhagen, Denmark<br />
+              Elegant Gade 123<br />
+              København, Danmark<br />
               1234 AB
             </p>
           </div>
@@ -32,7 +32,7 @@ const Footer = () => {
           <div>
             <h4 className="font-heading font-semibold mb-4 flex items-center gap-2">
               <Phone className="w-5 h-5 text-accent" />
-              Contact
+              Kontakt
             </h4>
             <div className="space-y-2 text-primary-foreground/80">
               <p>+45 12 34 56 78</p>
@@ -47,19 +47,19 @@ const Footer = () => {
           <div>
             <h4 className="font-heading font-semibold mb-4 flex items-center gap-2">
               <Clock className="w-5 h-5 text-accent" />
-              Opening Hours
+              Åbningstider
             </h4>
             <div className="space-y-2 text-primary-foreground/80">
-              <p>Mon - Fri: 9:00 - 18:00</p>
-              <p>Saturday: 10:00 - 16:00</p>
-              <p>Sunday: Closed</p>
+              <p>Man - Fre: 9:00 - 18:00</p>
+              <p>Lørdag: 10:00 - 16:00</p>
+              <p>Søndag: Lukket</p>
             </div>
           </div>
         </div>
 
         <div className="border-t border-primary-foreground/20 pt-8 text-center">
           <p className="text-primary-foreground/60 text-sm">
-            © {new Date().getFullYear()} Karen Werner v. Cille Lundqvist. All rights reserved.
+            © {new Date().getFullYear()} Karen Werner v. Cille Lundqvist. Alle rettigheder forbeholdes.
           </p>
         </div>
       </div>

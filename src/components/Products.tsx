@@ -7,32 +7,32 @@ const Products = () => {
     {
       name: "Premium Shampoo",
       image: productShampoo,
-      description: "Gentle, nourishing formula for all hair types. Cleanses while maintaining natural moisture balance.",
-      category: "Hair Care",
+      description: "Mild, nærende formel til alle hårtyper. Renser mens den bevarer naturlig fugtbalance.",
+      category: "Hårpleje",
     },
     {
-      name: "Styling Collection",
+      name: "Styling Kollektion",
       image: productStyling,
-      description: "Professional-grade styling products for lasting hold and natural shine. Create any look with ease.",
+      description: "Professionelle stylingprodukter til langtidsholdbar og naturlig glans. Skab ethvert look med lethed.",
       category: "Styling",
     },
     {
       name: "Treatment Serum",
       image: productTreatment,
-      description: "Intensive repair and protection. Restores vitality and adds luminous shine to damaged hair.",
-      category: "Treatment",
+      description: "Intensiv reparation og beskyttelse. Genskaber vitalitet og tilføjer strålende glans til beskadiget hår.",
+      category: "Behandling",
     },
   ];
 
   return (
     <section id="products" className="py-24 px-4 bg-background">
       <div className="container mx-auto max-w-6xl">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-heading font-bold mb-6">Our Products</h2>
+      <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-heading font-bold mb-6">Vores Produkter</h2>
           <div className="w-24 h-1 bg-accent mx-auto mb-8"></div>
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Discover our carefully curated selection of premium hair care products. 
-            Each item is chosen for its exceptional quality and proven results.
+            Opdag vores omhyggeligt udvalgte sortiment af premium hårplejeprodukter. 
+            Hvert produkt er valgt for sin exceptionelle kvalitet og dokumenterede resultater.
           </p>
         </div>
 
@@ -66,8 +66,8 @@ const Products = () => {
 
         <div className="mt-16 text-center">
           <p className="text-lg text-muted-foreground mb-6">
-            All products are available for purchase at our salon. Our stylists can recommend 
-            the perfect products for your hair type and styling needs.
+            Alle produkter er tilgængelige til køb i vores salon. Vores frisører kan anbefale 
+            de perfekte produkter til din hårtype og stylingbehov.
           </p>
         </div>
       </div>

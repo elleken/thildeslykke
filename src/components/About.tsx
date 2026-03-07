@@ -26,7 +26,7 @@ const About = () => {
           <h2 className="text-4xl md:text-5xl font-heading font-bold mb-6">Om Os</h2>
           <div className="w-24 h-1 bg-accent mx-auto mb-8"></div>
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Karen Werner v. Cille Lundqvist er mere end bare en frisørsalon—det er en destination 
+            Frisør er mere end bare en frisørsalon—det er en destination {/* original: Karen Werner v. Cille Lundqvist */}
             for dem, der sætter pris på kunsten i raffineret styling og exceptionel service.
           </p>
         </div>

@@ -8,7 +8,7 @@ const Footer = () => {
           {/* Salon Info */}
           <div>
             <h3 className="text-xl font-heading font-bold mb-4">
-              Karen Werner v. Cille Lundqvist
+              Frisør {/* original: Karen Werner v. Cille Lundqvist */}
             </h3>
             <p className="text-primary-foreground/80 leading-relaxed">
               Din destination for professionel hårpleje og exceptionel service.
@@ -59,7 +59,7 @@ const Footer = () => {
 
         <div className="border-t border-primary-foreground/20 pt-8 text-center">
           <p className="text-primary-foreground/60 text-sm">
-            © {new Date().getFullYear()} Karen Werner v. Cille Lundqvist. Alle rettigheder forbeholdes.
+            © {new Date().getFullYear()} Frisør. {/* original: Karen Werner v. Cille Lundqvist */} Alle rettigheder forbeholdes.
           </p>
         </div>
       </div>

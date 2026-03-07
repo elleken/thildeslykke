@@ -17,7 +17,7 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm shadow-soft">
       <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
         <h1 className="text-xl md:text-2xl font-heading font-bold">
-          Karen Werner v. Cille Lundqvist
+          Frisør {/* original: Karen Werner v. Cille Lundqvist */}
         </h1>
 
         {/* Desktop Navigation */}

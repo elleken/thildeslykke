@@ -16,7 +16,7 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center animate-in fade-in duration-1000">
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold mb-6 text-foreground">
-          Karen Werner v. Cille Lundqvist
+          Frisør {/* original: Karen Werner v. Cille Lundqvist */}
         </h1>
         <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto font-light">
           Hvor Elegance Møder Ekspertise

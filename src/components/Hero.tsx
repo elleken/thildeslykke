@@ -1,43 +1,52 @@
+import { Phone } from "lucide-react";
 import heroImage from "@/assets/hero-salon.jpg";
 
 const Hero = () => {
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section id="home" className="relative min-h-screen flex flex-col overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
           src={heroImage}
-          alt="Luxury salon interior with elegant styling stations"
+          alt="Smuk hårfarve og styling"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-background/50 via-background/70 to-background"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-transparent to-black/20"></div>
       </div>
 
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-4 text-center animate-in fade-in duration-1000">
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold mb-6 text-foreground">
+      <div className="relative z-10 flex-1 flex flex-col items-center justify-center px-4">
+        {/* Title */}
+        <h1 className="font-heading text-4xl md:text-6xl lg:text-7xl text-white mb-2 drop-shadow-lg" style={{ fontStyle: 'italic' }}>
           Cille Lundqvist
         </h1>
-        <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto font-light">
-          Hvor Elegance Møder Ekspertise
-        </p>
-        <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-3xl mx-auto">
-          Oplev professionel hårpleje i moderne, sofistikerede omgivelser. 
-          Vores ekspertfrisører bringer din vision til live med præcision og omhu.
-        </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <button
-            onClick={() => document.getElementById("about")?.scrollIntoView({ behavior: "smooth" })}
-            className="px-8 py-4 bg-primary text-primary-foreground rounded-lg font-medium hover:opacity-90 transition-all shadow-medium hover:shadow-lg"
-          >
-            Læs Vores Historie
-          </button>
-          <button
-            onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}
-            className="px-8 py-4 bg-accent text-accent-foreground rounded-lg font-medium hover:opacity-90 transition-all shadow-soft hover:shadow-medium"
-          >
-            Kontakt Os
-          </button>
+
+        {/* CTA Cards */}
+        <div className="mt-auto mb-24 w-full max-w-lg px-4 grid grid-cols-2 gap-4">
+          {/* Book nu */}
+          <div className="bg-white/60 backdrop-blur-md rounded-2xl p-5 flex flex-col items-center text-center shadow-lg">
+            <h3 className="text-lg font-heading font-semibold text-foreground mb-1">Book nu</h3>
+            <p className="text-sm text-muted-foreground mb-3">Bestil tid nemt online</p>
+            <button
+              onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}
+              className="w-full py-2.5 bg-primary text-primary-foreground rounded-lg font-medium text-sm hover:opacity-90 transition-all uppercase tracking-wide"
+            >
+              Book nu
+            </button>
+          </div>
+
+          {/* Ring nu */}
+          <div className="bg-white/60 backdrop-blur-md rounded-2xl p-5 flex flex-col items-center text-center shadow-lg">
+            <h3 className="text-lg font-heading font-semibold text-foreground mb-1">Ring nu</h3>
+            <p className="text-sm text-muted-foreground mb-3">Ring og bestil tid i dag</p>
+            <a
+              href="tel:+4512345678"
+              className="w-full py-2.5 bg-primary text-primary-foreground rounded-lg font-medium text-sm hover:opacity-90 transition-all uppercase tracking-wide flex items-center justify-center gap-2"
+            >
+              <Phone className="w-4 h-4" />
+              Ring nu
+            </a>
+          </div>
         </div>
       </div>
     </section>

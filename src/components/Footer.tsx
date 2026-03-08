@@ -34,7 +34,7 @@ const Footer = () => {
               Kontakt
             </h4>
             <div className="space-y-2 text-primary-foreground/80">
-              <p>+45 12 34 56 78</p>
+              <p>+45 31 21 32 01</p>
               <p className="flex items-center gap-2">
                 <Mail className="w-4 h-4" />
                 cillelundqvist@gmail.com

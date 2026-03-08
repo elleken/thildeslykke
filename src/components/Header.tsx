@@ -46,16 +46,16 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex gap-6 items-center">
-            <button onClick={() => scrollToSection("home")} className="text-foreground/70 hover:text-foreground transition-colors font-medium text-sm">
+            <button onClick={() => scrollToSection("home")} className="text-foreground hover:text-foreground/70 transition-colors font-bold text-sm">
               Hjem
             </button>
-            <button onClick={() => scrollToSection("about")} className="text-foreground/70 hover:text-foreground transition-colors font-medium text-sm">
+            <button onClick={() => scrollToSection("about")} className="text-foreground hover:text-foreground/70 transition-colors font-bold text-sm">
               Om Os
             </button>
-            <button onClick={() => scrollToSection("products")} className="text-foreground/70 hover:text-foreground transition-colors font-medium text-sm">
+            <button onClick={() => scrollToSection("products")} className="text-foreground hover:text-foreground/70 transition-colors font-bold text-sm">
               Produkter
             </button>
-            <button onClick={() => scrollToSection("contact")} className="text-foreground/70 hover:text-foreground transition-colors font-medium text-sm">
+            <button onClick={() => scrollToSection("contact")} className="text-foreground hover:text-foreground/70 transition-colors font-bold text-sm">
               Kontakt
             </button>
             <a href="tel:+4512345678" className="text-foreground hover:text-foreground/70 transition-colors">

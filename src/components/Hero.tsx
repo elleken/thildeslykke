@@ -3,7 +3,7 @@ import heroImage from "@/assets/hero-salon.jpg";
 
 const Hero = () => {
   return (
-    <section id="home" className="relative min-h-screen flex flex-col overflow-hidden">
+    <section id="home" className="relative flex flex-col overflow-hidden" style={{ height: '90vh' }}>
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img

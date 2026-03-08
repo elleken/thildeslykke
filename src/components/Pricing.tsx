@@ -69,7 +69,7 @@ const Pricing = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto">
           {categories.map((category, index) => (
             <div
               key={index}

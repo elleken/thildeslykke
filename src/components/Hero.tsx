@@ -26,7 +26,7 @@ const Hero = () => {
           {/* Book nu */}
           <div className="bg-white/60 backdrop-blur-md rounded-2xl p-5 flex flex-col items-center text-center shadow-lg">
             <h3 className="text-lg font-heading font-semibold text-foreground mb-1">Book nu</h3>
-            <p className="text-sm text-muted-foreground mb-3">Bestil tid nemt online</p>
+            <p className="text-sm text-foreground mb-3">Bestil tid nemt online</p>
             <button
               onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}
               className="w-full py-2.5 bg-primary text-primary-foreground rounded-lg font-medium text-sm hover:opacity-90 transition-all uppercase tracking-wide"
@@ -38,7 +38,7 @@ const Hero = () => {
           {/* Ring nu */}
           <div className="bg-white/60 backdrop-blur-md rounded-2xl p-5 flex flex-col items-center text-center shadow-lg">
             <h3 className="text-lg font-heading font-semibold text-foreground mb-1">Ring nu</h3>
-            <p className="text-sm text-muted-foreground mb-3">Ring og bestil tid i dag</p>
+            <p className="text-sm text-foreground mb-3">Ring og bestil tid i dag</p>
             <a
               href="tel:+4512345678"
               className="w-full py-2.5 bg-primary text-primary-foreground rounded-lg font-medium text-sm hover:opacity-90 transition-all uppercase tracking-wide flex items-center justify-center gap-2"

@@ -40,10 +40,6 @@ const Header = () => {
 
         {/* Right: Nav + phone */}
         <div className="w-1/3 flex items-center justify-end gap-6">
-          {/* Phone icon (mobile) */}
-          <a href="tel:+4512345678" className="md:hidden text-foreground">
-            <Phone className="w-5 h-5" />
-          </a>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex gap-6 items-center">

@@ -41,7 +41,6 @@ const Pricing = () => {
         { name: "Skulderlængde", price: "Fra 1.845,-" },
         { name: "Langt", price: "Fra 2.245,-" },
       ],
-      note: "Tillæg 200,-",
     },
     {
       title: "Extensions",

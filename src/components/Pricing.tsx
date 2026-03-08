@@ -46,7 +46,7 @@ const Pricing = () => {
     {
       title: "Extensions",
       services: [
-        { name: "Oprykning", price: "Fra 1.280,-" },
+        { name: "Oprykning med tape", price: "Fra 1.280,-" },
       ],
     },
     {

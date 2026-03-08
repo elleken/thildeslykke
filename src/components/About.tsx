@@ -24,7 +24,7 @@ const About = () => {
               Med mere end 20 års erfaring i frisørfaget har jeg opbygget en passion for at skabe hår, der både ser smukt ud og føles sundt.
             </p>
             <p className="text-foreground/90 leading-relaxed mb-6">
-              Jeg har blandt andet arbejdet 5 år på Østerbro, hvor fokus altid har været på kvalitet, personlig rådgivning og skræddersyede behandlinger.
+              Senest har jeg arbejdet 5 år på Østerbro, hvor fokus altid har været på kvalitet, personlig rådgivning og skræddersyede behandlinger.
             </p>
             <p className="text-foreground/90 leading-relaxed mb-6">
               Hos mig handler en frisørbehandling om mere end bare hår. Det er en oplevelse, hvor der er tid til at finde frem til den stil, der passer perfekt til dig, din personlighed og din hverdag.

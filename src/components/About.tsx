@@ -30,7 +30,7 @@ const About = () => {
               Hos mig handler en frisørbehandling om mere end bare hår. Det er en oplevelse, hvor der er tid til at finde frem til den stil, der passer perfekt til dig, din personlighed og din hverdag.
             </p>
             <p className="text-foreground/90 leading-relaxed">
-              Jeg arbejder med <strong>Natulique</strong>, en eksklusiv og mere bæredygtig hårplejeserie, der er kendt for sine naturlige ingredienser og skånsomme formuleringer. Produkterne er udviklet med omtanke for både <strong>hår, hovedbund og miljø</strong>, uden at gå på kompromis med resultatet.
+              Jeg arbejder med <strong>Natulique</strong>, en eksklusiv og bæredygtig hårplejeserie, der er kendt for sine naturlige ingredienser og skånsomme formuleringer. Produkterne er udviklet med omtanke for både <strong>hår, hovedbund og miljø</strong>, uden at gå på kompromis med resultatet.
             </p>
           </div>
         </div>

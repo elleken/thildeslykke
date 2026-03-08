@@ -16,12 +16,7 @@ const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 flex-1 flex flex-col items-center px-4">
-        {/* Title - centered vertically */}
-        <div className="flex-1 flex items-center">
-          <h1 className="font-heading text-4xl md:text-6xl lg:text-7xl text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.5)]" style={{ fontStyle: 'italic' }}>
-            Cille Lundqvist
-          </h1>
-        </div>
+        <div className="flex-1"></div>
 
         {/* CTA Cards */}
         <div className="mt-auto mb-24 w-full max-w-lg px-4 grid grid-cols-2 gap-4">

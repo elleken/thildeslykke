@@ -35,8 +35,7 @@ const Footer = () => {
                   +45 31 21 32 01
                 </a>
               </p>
-              <p className="flex items-center gap-2">
-                <Mail className="w-4 h-4" />
+              <p>
                 <a href="mailto:cillelundqvist@gmail.com" className="hover:text-accent transition-colors">
                   cillelundqvist@gmail.com
                 </a>

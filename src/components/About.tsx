@@ -1,8 +1,5 @@
-import { Scissors, Heart, Award } from "lucide-react";
-import cillePortrait from "@/assets/cille-portrait.jpg";
 
 const About = () => {
-  const values = [
     {
       icon: Scissors,
       title: "Ekspert Håndværk",

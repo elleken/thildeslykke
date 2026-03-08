@@ -32,23 +32,33 @@ const About = () => {
           </p>
         </div>
 
-        <div className="mb-16 prose prose-lg max-w-4xl mx-auto">
-          <p className="text-foreground/90 leading-relaxed mb-6">
-            Grundlagt på principperne om elegance, ekspertise og autenticitet, er vores salon blevet 
-            et fristed for klienter, der søger mere end bare en klipning. Vi mener, at hvert besøg skal 
-            være en oplevelse—en der efterlader dig selvsikker, forfrisket og virkelig værdsat.
-          </p>
-          <p className="text-foreground/90 leading-relaxed mb-6">
-            Vores hold af dygtige frisører kombinerer traditionelle teknikker med moderne trends og 
-            sikrer, at hver behandling er skræddersyet til din unikke stil og præferencer. Fra præcise 
-            klipninger til farveomdannelser behandler vi hver detalje med omhu og dedikation.
-          </p>
-          <p className="text-foreground/90 leading-relaxed">
-            Træd ind i vores moderne, indbydende rum, hvor luksus møder komfort. Vi er forpligtet til 
-            at bruge bæredygtige produkter af høj kvalitet, der nærer dit hår og samtidig beskytter 
-            miljøet. Din tilfredshed er vores prioritet, og vi ser frem til at hjælpe dig med at 
-            opnå det look, du altid har ønsket dig.
-          </p>
+        <div className="mb-16 max-w-5xl mx-auto flex flex-col md:flex-row gap-10 items-center">
+          <div className="w-full md:w-2/5 flex-shrink-0">
+            <div className="rounded-2xl overflow-hidden shadow-medium aspect-[3/4]">
+              <img
+                src={cillePortrait}
+                alt="Cille Lundqvist"
+                className="w-full h-full object-cover object-top"
+              />
+            </div>
+          </div>
+          <div className="w-full md:w-3/5 prose prose-lg">
+            <p className="text-foreground/90 leading-relaxed mb-6">
+              Grundlagt på principperne om elegance, ekspertise og autenticitet, er vores salon blevet 
+              et fristed for klienter, der søger mere end bare en klipning. Vi mener, at hvert besøg skal 
+              være en oplevelse—en der efterlader dig selvsikker, forfrisket og virkelig værdsat.
+            </p>
+            <p className="text-foreground/90 leading-relaxed mb-6">
+              Vores hold af dygtige frisører kombinerer traditionelle teknikker med moderne trends og 
+              sikrer, at hver behandling er skræddersyet til din unikke stil og præferencer. Fra præcise 
+              klipninger til farveomdannelser behandler vi hver detalje med omhu og dedikation.
+            </p>
+            <p className="text-foreground/90 leading-relaxed">
+              Træd ind i vores moderne, indbydende rum, hvor luksus møder komfort. Vi er forpligtet til 
+              at bruge bæredygtige produkter af høj kvalitet, der nærer dit hår og samtidig beskytter 
+              miljøet.
+            </p>
+          </div>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8 mt-16">

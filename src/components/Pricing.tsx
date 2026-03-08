@@ -7,6 +7,7 @@ const Pricing = () => {
         { name: "Herreklip", price: "Fra 455,-" },
         { name: "Børneklip (5-12 år)", price: "Fra 400,-" },
         { name: "Babyklip (0-2 år)", price: "Fra 250,-" },
+        { name: "Børneklip (2-5 år)", price: "Fra 350,-" },
       ],
     },
     {

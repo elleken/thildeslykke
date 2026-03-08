@@ -25,10 +25,16 @@ const Footer = () => {
               Kontakt
             </h4>
             <div className="space-y-2 text-primary-foreground/80">
-              <p>+45 31 21 32 01</p>
+              <p>
+                <a href="tel:+4531213201" className="hover:text-accent transition-colors">
+                  +45 31 21 32 01
+                </a>
+              </p>
               <p className="flex items-center gap-2">
                 <Mail className="w-4 h-4" />
-                cillelundqvist@gmail.com
+                <a href="mailto:cillelundqvist@gmail.com" className="hover:text-accent transition-colors">
+                  cillelundqvist@gmail.com
+                </a>
               </p>
             </div>
           </div>

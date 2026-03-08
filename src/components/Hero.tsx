@@ -17,7 +17,7 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 flex-1 flex flex-col items-center justify-center px-4">
         {/* Title */}
-        <h1 className="font-heading text-4xl md:text-6xl lg:text-7xl text-white mb-2 drop-shadow-lg" style={{ fontStyle: 'italic' }}>
+        <h1 className="font-heading text-4xl md:text-6xl lg:text-7xl text-white mb-2 drop-shadow-[0_2px_8px_rgba(0,0,0,0.5)] mt-20" style={{ fontStyle: 'italic' }}>
           Cille Lundqvist
         </h1>
 

@@ -47,32 +47,28 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Social Media */}
-        <div className="flex justify-center gap-6 mb-8">
-          <a
-            href="https://instagram.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-primary-foreground hover:text-accent transition-colors"
-            aria-label="Instagram"
-          >
-            <Instagram className="w-6 h-6" />
-          </a>
-          <a
-            href="https://facebook.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-primary-foreground hover:text-accent transition-colors"
-            aria-label="Facebook"
-          >
-            <Facebook className="w-6 h-6" />
-          </a>
-        </div>
-
-        <div className="border-t border-primary-foreground/20 pt-8 text-center">
-          <p className="text-primary-foreground/60 text-sm">
-            © {new Date().getFullYear()} Frisør. {/* original: Karen Werner v. Cille Lundqvist */} Alle rettigheder forbeholdes.
-          </p>
+        <div className="border-t border-primary-foreground/20 pt-8 mb-8">
+          {/* Social Media */}
+          <div className="flex justify-center gap-6">
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary-foreground hover:text-accent transition-colors"
+              aria-label="Instagram"
+            >
+              <Instagram className="w-6 h-6" />
+            </a>
+            <a
+              href="https://facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary-foreground hover:text-accent transition-colors"
+              aria-label="Facebook"
+            >
+              <Facebook className="w-6 h-6" />
+            </a>
+          </div>
         </div>
       </div>
     </footer>

@@ -4,16 +4,7 @@ const Footer = () => {
   return (
     <footer id="contact" className="bg-primary text-primary-foreground py-16 px-4">
       <div className="container mx-auto max-w-6xl">
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
-          {/* Salon Info */}
-          <div>
-            <h3 className="text-xl font-heading font-bold mb-4">
-              Frisør {/* original: Karen Werner v. Cille Lundqvist */}
-            </h3>
-            <p className="text-primary-foreground/80 leading-relaxed">
-              Din destination for professionel hårpleje og exceptionel service.
-            </p>
-          </div>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
 
           {/* Location */}
           <div>

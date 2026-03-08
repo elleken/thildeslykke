@@ -67,7 +67,7 @@ const Header = () => {
               Hjem
             </button>
             <button onClick={() => scrollToSection("about")} className="text-left text-foreground/70 hover:text-foreground transition-colors font-medium py-2">
-              Om Os
+              Om Mig
             </button>
             <button onClick={() => scrollToSection("products")} className="text-left text-foreground/70 hover:text-foreground transition-colors font-medium py-2">
               Produkter

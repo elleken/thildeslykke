@@ -67,7 +67,7 @@ const Pricing = () => {
           <h2 className="text-4xl md:text-5xl font-heading font-bold mb-6">Priser</h2>
           <div className="w-24 h-1 bg-primary mx-auto mb-8"></div>
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Alle priser er fra-priser. Kontakt mig for en uforpligtende vurdering af dit hår.
+            Alle priser er vejledende. Kontakt mig for en uforpligtende vurdering af dit hår.
           </p>
         </div>
 

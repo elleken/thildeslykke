@@ -26,7 +26,7 @@ const Header = () => {
           >
             {isMenuOpen ? <X /> : <Menu />}
           </Button>
-          <a href="tel:+4512345678" className="text-foreground hover:text-foreground/70 transition-colors">
+          <a href="tel:+4531213201" className="text-foreground hover:text-foreground/70 transition-colors">
             <Phone className="w-5 h-5" />
           </a>
         </div>

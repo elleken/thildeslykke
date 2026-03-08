@@ -8,10 +8,15 @@ const Footer = () => {
 
           {/* Location */}
           <div>
-            <h4 className="font-heading font-semibold mb-4 flex items-center gap-2">
+            <a
+              href="https://maps.app.goo.gl/dwi2pCgxHPTQy5iK7"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-heading font-semibold mb-4 flex items-center gap-2 hover:text-accent transition-colors"
+            >
               <MapPin className="w-5 h-5 text-accent" />
               Placering
-            </h4>
+            </a>
             <a 
               href="https://maps.app.goo.gl/dwi2pCgxHPTQy5iK7"
               target="_blank"

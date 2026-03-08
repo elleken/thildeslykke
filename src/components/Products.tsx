@@ -56,11 +56,6 @@ const Products = () => {
           ))}
         </div>
 
-        <div className="mt-16 text-center">
-          <p className="text-lg text-muted-foreground mb-6">
-            Alle produkter er tilgængelige til køb i salonen. Jeg kan anbefale de perfekte produkter til din hårtype og stylingbehov.
-          </p>
-        </div>
       </div>
     </section>
   );

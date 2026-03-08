@@ -12,10 +12,15 @@ const Footer = () => {
               <MapPin className="w-5 h-5 text-accent" />
               Placering
             </h4>
-            <p className="text-primary-foreground/80 leading-relaxed">
+            <a 
+              href="https://maps.google.com/?q=Strandvejen+72,+Hellerup+2900,+Denmark"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary-foreground/80 hover:text-accent transition-colors leading-relaxed"
+            >
               Strandvejen 72<br />
               Hellerup 2900
-            </p>
+            </a>
           </div>
 
           {/* Contact */}

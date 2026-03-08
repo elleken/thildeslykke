@@ -32,7 +32,7 @@ const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background backdrop-blur-sm shadow-soft">
       <nav className="container mx-auto px-4 py-2 flex items-center">
-        {/* Left: Phone + mobile menu */}
+        {/* Left: Mobile menu */}
         <div className="flex items-center gap-2 w-1/3">
           <Button
             ref={buttonRef}
@@ -43,9 +43,6 @@ const Header = () => {
           >
             {isMenuOpen ? <X /> : <Menu />}
           </Button>
-          <a href="tel:+4531213201" className="text-foreground hover:text-foreground/70 transition-colors">
-            <Phone className="w-5 h-5" />
-          </a>
         </div>
 
         {/* Center: Name */}
@@ -55,7 +52,7 @@ const Header = () => {
           </h1>
         </div>
 
-        {/* Right: Nav + phone */}
+        {/* Right: Phone icon + Desktop nav */}
         <div className="w-1/3 flex items-center justify-end gap-6">
           {/* Desktop Navigation */}
           <div className="hidden md:flex gap-6 items-center">
@@ -75,6 +72,11 @@ const Header = () => {
               Kontakt
             </button>
           </div>
+          
+          {/* Phone icon - always visible */}
+          <a href="tel:+4531213201" className="text-foreground hover:text-foreground/70 transition-colors">
+            <Phone className="w-5 h-5" />
+          </a>
         </div>
       </nav>
 

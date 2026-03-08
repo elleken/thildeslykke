@@ -75,6 +75,7 @@ const Pricing = () => {
               key={index}
               className="bg-card rounded-lg overflow-hidden shadow-soft hover:shadow-medium transition-all duration-300"
             >
+              <div className="p-6">
                 <span className="text-sm text-primary font-medium tracking-wide uppercase">
                   {category.title}
                 </span>

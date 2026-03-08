@@ -13,7 +13,7 @@ const Footer = () => {
               Placering
             </h4>
             <a 
-              href="https://maps.app.goo.gl/wsMLivfjhYbfX1oZ7"
+              href="https://maps.app.goo.gl/dwi2pCgxHPTQy5iK7"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/80 hover:text-accent transition-colors leading-relaxed"

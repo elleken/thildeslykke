@@ -15,11 +15,10 @@ const Hero = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 flex-1 flex flex-col items-center px-4">
-        <div className="flex-1"></div>
+      <div className="relative z-10 flex-1 flex flex-col items-center justify-center px-4">
 
         {/* CTA Cards */}
-        <div className="mt-auto mb-40 w-full max-w-lg px-4 grid grid-cols-2 gap-4">
+        <div className="w-full max-w-lg px-4 grid grid-cols-2 gap-4">
           {/* Book nu */}
           <div className="bg-white/60 backdrop-blur-md rounded-2xl p-5 flex flex-col items-center text-center shadow-lg">
             <h3 className="text-lg font-heading font-semibold text-foreground mb-1">Book nu</h3>

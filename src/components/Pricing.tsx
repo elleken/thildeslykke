@@ -25,7 +25,6 @@ const Pricing = () => {
         { name: "Skulderlængde", price: "Fra 995,-" },
         { name: "Langt hår", price: "Fra 1.395,-" },
       ],
-      note: "Tillæg for tykt hår 100,-",
     },
     {
       title: "Glossing",

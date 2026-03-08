@@ -1,9 +1,25 @@
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Menu, X, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const menuRef = useRef<HTMLDivElement>(null);
+  const buttonRef = useRef<HTMLButtonElement>(null);
+
+  useEffect(() => {
+    if (!isMenuOpen) return;
+    const handleClickOutside = (e: MouseEvent) => {
+      if (
+        menuRef.current && !menuRef.current.contains(e.target as Node) &&
+        buttonRef.current && !buttonRef.current.contains(e.target as Node)
+      ) {
+        setIsMenuOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, [isMenuOpen]);
 
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
@@ -19,6 +35,7 @@ const Header = () => {
         {/* Left: Phone + mobile menu */}
         <div className="flex items-center gap-2 w-1/3">
           <Button
+            ref={buttonRef}
             variant="ghost"
             size="icon"
             className="md:hidden text-foreground hover:bg-foreground/10"
@@ -40,7 +57,6 @@ const Header = () => {
 
         {/* Right: Nav + phone */}
         <div className="w-1/3 flex items-center justify-end gap-6">
-
           {/* Desktop Navigation */}
           <div className="hidden md:flex gap-6 items-center">
             <button onClick={() => scrollToSection("home")} className="text-foreground hover:text-foreground/70 transition-colors font-bold text-sm">
@@ -64,7 +80,7 @@ const Header = () => {
 
       {/* Mobile Navigation */}
       {isMenuOpen && (
-        <div className="md:hidden bg-background border-t border-foreground/10 animate-in slide-in-from-top duration-200">
+        <div ref={menuRef} className="md:hidden bg-background border-t border-foreground/10 animate-in slide-in-from-top duration-200">
           <div className="container mx-auto px-4 py-4 flex flex-col gap-4">
             <button onClick={() => scrollToSection("home")} className="text-left text-foreground/70 hover:text-foreground transition-colors font-medium py-2">
               Hjem

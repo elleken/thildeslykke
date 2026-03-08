@@ -48,6 +48,7 @@ const Pricing = () => {
       services: [
         { name: "Oprykning med tape", price: "Fra 1.280,-" },
       ],
+      note: "Ved opstart af nye extensions, ring for yderligere information",
     },
     {
       title: "Kur",

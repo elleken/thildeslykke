@@ -10,8 +10,16 @@ const appHtml = render("/");
 const normalizedAppHtml = appHtml.replaceAll('src="/assets/', 'src="./assets/');
 
 const template = readFileSync(distIndexPath, "utf-8");
+const rootPlaceholder = /<div id="root"><\/div>/;
+
+if (!rootPlaceholder.test(template)) {
+  throw new Error(
+    "Prerender failed: root placeholder was not found in dist/index.html",
+  );
+}
+
 const prerenderedHtml = template.replace(
-  '<div id="root"></div>',
+  rootPlaceholder,
   `<div id="root">${normalizedAppHtml}</div>`,
 );
 

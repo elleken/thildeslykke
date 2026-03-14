@@ -9,8 +9,10 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
-  plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
-  base: mode === "production" ? "/karencille-style-hub/" : "/",
+  plugins: [react(), mode === "development" && componentTagger()].filter(
+    Boolean,
+  ),
+  base: "/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),

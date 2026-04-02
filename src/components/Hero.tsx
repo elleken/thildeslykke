@@ -1,26 +1,86 @@
-import heroImage768 from "@/assets/hero-salon-768.webp";
-import heroImage1280 from "@/assets/hero-salon-1280.webp";
-import heroImage1800 from "@/assets/hero-salon-1800.webp";
+import { useState, useEffect } from "react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const Hero = () => {
+  const heroImages = [
+    "/green-star-packaging.jpg",
+    "/purple-pearl-packaging.jpg",
+    "/gold-shell-1.jpg",
+    "/navy-hoops-1.jpg",
+    "/blue-striped-bracelet.jpg",
+    "/rose-quartz-pearl.jpg",
+  ];
+
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  // Auto-play carousel
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImageIndex((prev) => (prev + 1) % heroImages.length);
+    }, 5000); // Skift billede hver 5. sekund
+
+    return () => clearInterval(interval);
+  }, [heroImages.length]);
+
+  const goToPrevious = () => {
+    setCurrentImageIndex((prev) => (prev === 0 ? heroImages.length - 1 : prev - 1));
+  };
+
+  const goToNext = () => {
+    setCurrentImageIndex((prev) => (prev + 1) % heroImages.length);
+  };
+
   return (
     <section
       id="home"
       className="relative flex flex-col overflow-hidden"
       style={{ height: "80vh" }}
     >
-      {/* Background Image - Smykker */}
+      {/* Background Image Carousel */}
       <div className="absolute inset-0 z-0">
-        <img
-          src={heroImage1280}
-          srcSet={`${heroImage768} 768w, ${heroImage1280} 1280w, ${heroImage1800} 1800w`}
-          sizes="100vw"
-          alt="Thildes håndlavede smykker"
-          decoding="async"
-          loading="eager"
-          className="w-full h-full object-cover"
-        />
+        {heroImages.map((image, index) => (
+          <img
+            key={index}
+            src={image}
+            alt={`Thildes håndlavede smykker - billede ${index + 1}`}
+            decoding="async"
+            loading={index === 0 ? "eager" : "lazy"}
+            className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
+              index === currentImageIndex ? "opacity-100" : "opacity-0"
+            }`}
+          />
+        ))}
         <div className="absolute inset-0 bg-black/50"></div>
+      </div>
+
+      {/* Carousel Controls */}
+      <button
+        onClick={goToPrevious}
+        className="absolute left-4 top-1/2 -translate-y-1/2 z-20 bg-black/50 hover:bg-black/70 text-white p-3 rounded-full transition-all"
+        aria-label="Forrige billede"
+      >
+        <ChevronLeft className="w-6 h-6" />
+      </button>
+      <button
+        onClick={goToNext}
+        className="absolute right-4 top-1/2 -translate-y-1/2 z-20 bg-black/50 hover:bg-black/70 text-white p-3 rounded-full transition-all"
+        aria-label="Næste billede"
+      >
+        <ChevronRight className="w-6 h-6" />
+      </button>
+
+      {/* Dot Indicators */}
+      <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-20 flex gap-2">
+        {heroImages.map((_, index) => (
+          <button
+            key={index}
+            onClick={() => setCurrentImageIndex(index)}
+            className={`w-3 h-3 rounded-full transition-all ${
+              index === currentImageIndex ? "bg-white w-8" : "bg-white/50"
+            }`}
+            aria-label={`Gå til billede ${index + 1}`}
+          />
+        ))}
       </div>
 
       {/* Content */}

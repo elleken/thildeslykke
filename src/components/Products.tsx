@@ -6,9 +6,9 @@ const Products = () => {
     {
       name: "Gold Shell Halskæde",
       images: [
-        "/gold-shell-1.jpg",
-        "/gold-shell-2.jpg",
-        "/gold-shell-worn.jpg",
+        "/thildeslykke/gold-shell-1.jpg",
+        "/thildeslykke/gold-shell-2.jpg",
+        "/thildeslykke/gold-shell-worn.jpg",
       ],
       description:
         "Elegant halskæde med en gylden muslingeskal og hvide perler. Sommerklar og tidløs elegance.",
@@ -17,9 +17,9 @@ const Products = () => {
     {
       name: "Premium Perledråbeøreringe",
       images: [
-        "/pearl-drop-1.jpg",
-        "/pearl-drop-2.jpg",
-        "/pearl-drop-3.jpg",
+        "/thildeslykke/pearl-drop-1.jpg",
+        "/thildeslykke/pearl-drop-2.jpg",
+        "/thildeslykke/pearl-drop-3.jpg",
       ],
       description:
         "Elegante øreringe med hvide perledråber på guldbelagt kæde. Håndlavet med højeste kvalitet og passion.",
@@ -28,8 +28,8 @@ const Products = () => {
     {
       name: "Navy Drop Øreringe",
       images: [
-        "/navy-drop-1.jpg",
-        "/navy-drop-2.jpg",
+        "/thildeslykke/navy-drop-1.jpg",
+        "/thildeslykke/navy-drop-2.jpg",
       ],
       description:
         "Elegante dråbeøreringe med mørkeblå krystaller på guldbelagt kæde. Moderne og tidløs stil.",
@@ -38,9 +38,9 @@ const Products = () => {
     {
       name: "Navy Chandelier Hoops",
       images: [
-        "/navy-hoops-1.jpg",
-        "/navy-hoops-2.jpg",
-        "/navy-hoops-flat.jpg",
+        "/thildeslykke/navy-hoops-1.jpg",
+        "/thildeslykke/navy-hoops-2.jpg",
+        "/thildeslykke/navy-hoops-flat.jpg",
       ],
       description:
         "Statement øreringe med mørkeblå krystaller og guldbelagt kæde. Perfekt til begge lejligheder.",
@@ -49,8 +49,8 @@ const Products = () => {
     {
       name: "Blue Striped Armbånd",
       images: [
-        "/blue-striped-bracelet.jpg",
-        "/blue-striped-worn.jpg",
+        "/thildeslykke/blue-striped-bracelet.jpg",
+        "/thildeslykke/blue-striped-worn.jpg",
       ],
       description:
         "Stiligt armbånd med blå og hvide striber. Perfekt til daglig brug og meget komfortabelt.",
@@ -59,7 +59,7 @@ const Products = () => {
     {
       name: "Grønt Perlearmbånd",
       images: [
-        "/green-bracelet.jpg",
+        "/thildeslykke/green-bracelet.jpg",
       ],
       description:
         "Farverigt armbånd med grønne og hvide perler. Perfekt til daglig brug og sommer.",
@@ -68,7 +68,7 @@ const Products = () => {
     {
       name: "Capybara Armbånd",
       images: [
-        "/capybara-bracelet.jpg",
+        "/thildeslykke/capybara-bracelet.jpg",
       ],
       description:
         "Adorabelt armbånd med capybara charms og blå/grønne striber. Super sødt design!",
@@ -77,7 +77,7 @@ const Products = () => {
     {
       name: "Teddy Bear Armbånd",
       images: [
-        "/bear-bracelet.jpg",
+        "/thildeslykke/bear-bracelet.jpg",
       ],
       description:
         "Sødt armbånd med teddy bear charm og farvede perler. Perfekt for børn og unge.",
@@ -86,7 +86,7 @@ const Products = () => {
     {
       name: "Cowboy Boots Armbånd",
       images: [
-        "/boots-bracelet.jpg",
+        "/thildeslykke/boots-bracelet.jpg",
       ],
       description:
         "Statement armbånd med cowboy boots charm og farvede perler. Unikt og sjovt design.",
@@ -95,7 +95,7 @@ const Products = () => {
     {
       name: "Gul & Sort Armbånd",
       images: [
-        "/yellow-black-bracelet.jpg",
+        "/thildeslykke/yellow-black-bracelet.jpg",
       ],
       description:
         "Stiligt armbånd i gul og sort. Klassisk farvekombination der passer til alt.",
@@ -104,7 +104,7 @@ const Products = () => {
     {
       name: "Lys Fersken Armbånd",
       images: [
-        "/peach-bracelet.jpg",
+        "/thildeslykke/peach-bracelet.jpg",
       ],
       description:
         "Blidt armbånd i ferskentoner og naturlige perler. Elegant og feminine.",
@@ -113,7 +113,7 @@ const Products = () => {
     {
       name: "Butterfly Charm Armbånd",
       images: [
-        "/butterfly-bracelet.jpg",
+        "/thildeslykke/butterfly-bracelet.jpg",
       ],
       description:
         "Flot armbånd med sommerfugl charm og farvede perler. Perfekt som gave.",
@@ -122,7 +122,7 @@ const Products = () => {
     {
       name: "Purple & Blue Armbånd",
       images: [
-        "/purple-blue-bracelet.jpg",
+        "/thildeslykke/purple-blue-bracelet.jpg",
       ],
       description:
         "Modernt armbånd i lilla og blå nuancer. Perfekt til både casual og dressy.",
@@ -131,7 +131,7 @@ const Products = () => {
     {
       name: "Pink 4ever Armbånd",
       images: [
-        "/pink-4ever-bracelet.jpg",
+        "/thildeslykke/pink-4ever-bracelet.jpg",
       ],
       description:
         "Romantisk armbånd i pink og blå. Stiligt design med guldbelagte detaljer.",
@@ -140,7 +140,7 @@ const Products = () => {
     {
       name: "Clay Pink & Blue Armbånd",
       images: [
-        "/clay-pink-blue-bracelet.jpg",
+        "/thildeslykke/clay-pink-blue-bracelet.jpg",
       ],
       description:
         "Modernt armbånd med pink og blå clay perler. Fint håndlavet design.",
@@ -149,9 +149,9 @@ const Products = () => {
     {
       name: "Purple Pearl Sæt",
       images: [
-        "/purple-set-packaging.jpg",
-        "/purple-pearl-bracelet.jpg",
-        "/purple-set-packaging-2.jpg",
+        "/thildeslykke/purple-set-packaging.jpg",
+        "/thildeslykke/purple-pearl-bracelet.jpg",
+        "/thildeslykke/purple-set-packaging-2.jpg",
       ],
       description:
         "Elegant sæt med lilla clay perler og hvide perler. Smukke packaging! Perfekt som gave.",
@@ -160,8 +160,8 @@ const Products = () => {
     {
       name: "Blue Pearl Sæt",
       images: [
-        "/blue-set-packaging.jpg",
-        "/blue-pearl-bracelet.jpg",
+        "/thildeslykke/blue-set-packaging.jpg",
+        "/thildeslykke/blue-pearl-bracelet.jpg",
       ],
       description:
         "Klassisk sæt med blå clay perler og hvide perler. Premium packaging og håndlavet kvalitet.",
@@ -170,10 +170,10 @@ const Products = () => {
     {
       name: "Green Star Charm Sæt",
       images: [
-        "/green-star-packaging.jpg",
-        "/green-star-detail.jpg",
-        "/green-star-worn.jpg",
-        "/green-star-packaging-2.jpg",
+        "/thildeslykke/green-star-packaging.jpg",
+        "/thildeslykke/green-star-detail.jpg",
+        "/thildeslykke/green-star-worn.jpg",
+        "/thildeslykke/green-star-packaging-2.jpg",
       ],
       description:
         "Elegant armbånd med grøn clay perler og guldstjerne charm. Flot holografisk packaging! Perfekt som gave.",
@@ -182,8 +182,8 @@ const Products = () => {
     {
       name: "Rose Quartz Pearl Bracelet",
       images: [
-        "/rose-quartz-pearl.jpg",
-        "/rose-quartz-worn.jpg",
+        "/thildeslykke/rose-quartz-pearl.jpg",
+        "/thildeslykke/rose-quartz-worn.jpg",
       ],
       description:
         "Luksus armbånd med rose quartz perler og hvide perler. Kraftigt og smuk! Premium håndlavet.",
@@ -192,8 +192,8 @@ const Products = () => {
     {
       name: "Purple Pearl Premium Sæt",
       images: [
-        "/purple-pearl-packaging.jpg",
-        "/purple-pearl-packaging-2.jpg",
+        "/thildeslykke/purple-pearl-packaging.jpg",
+        "/thildeslykke/purple-pearl-packaging-2.jpg",
       ],
       description:
         "Eksklusivt sæt med lilla clay perler og hvide perler. Holografisk packaging med fugle design! Helt premium.",
@@ -202,9 +202,9 @@ const Products = () => {
     {
       name: "Perle & Safir Kædeøreringe",
       images: [
-        "/earrings-1.jpg",
-        "/earrings-2.jpg",
-        "/earrings-3.jpg",
+        "/thildeslykke/earrings-1.jpg",
+        "/thildeslykke/earrings-2.jpg",
+        "/thildeslykke/earrings-3.jpg",
       ],
       description:
         "Elegante kædeøreringe med hvide perler og mørkeblå safirperler. Håndlavet med højeste kvalitet.",

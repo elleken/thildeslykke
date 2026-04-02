@@ -3,12 +3,12 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const Hero = () => {
   const heroImages = [
-    "/green-star-packaging.jpg",
-    "/purple-pearl-packaging.jpg",
-    "/gold-shell-1.jpg",
-    "/navy-hoops-1.jpg",
-    "/blue-striped-bracelet.jpg",
-    "/rose-quartz-pearl.jpg",
+    "/thildeslykke/green-star-packaging.jpg",
+    "/thildeslykke/purple-pearl-packaging.jpg",
+    "/thildeslykke/gold-shell-1.jpg",
+    "/thildeslykke/navy-hoops-1.jpg",
+    "/thildeslykke/blue-striped-bracelet.jpg",
+    "/thildeslykke/rose-quartz-pearl.jpg",
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);

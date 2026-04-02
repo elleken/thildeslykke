@@ -40,11 +40,11 @@ const Header = () => {
         {/* Center: Name */}
         <div className="w-1/3 text-center">
           <h1 className="text-xl md:text-2xl font-heading text-foreground" style={{ fontStyle: 'italic' }}>
-            Cille Lundqvist
+            Thildes Lykke
           </h1>
         </div>
 
-        {/* Right: Phone icon + Desktop nav */}
+        {/* Right: Desktop nav */}
         <div className="w-1/3 flex items-center justify-end gap-6">
           {/* Desktop Navigation */}
           <div className="hidden md:flex gap-6 items-center">
@@ -55,20 +55,12 @@ const Header = () => {
               Om Mig
             </a>
             <a href="#products" className="text-foreground hover:text-foreground/70 transition-colors font-bold text-sm">
-              Produkter
-            </a>
-            <a href="#pricing" className="text-foreground hover:text-foreground/70 transition-colors font-bold text-sm">
-              Priser
+              Smykker
             </a>
             <a href="#contact" className="text-foreground hover:text-foreground/70 transition-colors font-bold text-sm">
               Kontakt
             </a>
           </div>
-          
-          {/* Phone icon - always visible */}
-          <a href="tel:+4531213201" className="text-foreground hover:text-foreground/70 transition-colors">
-            <Phone className="w-5 h-5" />
-          </a>
         </div>
       </nav>
 
@@ -83,10 +75,7 @@ const Header = () => {
               Om Mig
             </a>
             <a href="#products" onClick={() => setIsMenuOpen(false)} className="text-left text-foreground/70 hover:text-foreground transition-colors font-medium py-2">
-              Produkter
-            </a>
-            <a href="#pricing" onClick={() => setIsMenuOpen(false)} className="text-left text-foreground/70 hover:text-foreground transition-colors font-medium py-2">
-              Priser
+              Smykker
             </a>
             <a href="#contact" onClick={() => setIsMenuOpen(false)} className="text-left text-foreground/70 hover:text-foreground transition-colors font-medium py-2">
               Kontakt

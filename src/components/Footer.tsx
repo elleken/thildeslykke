@@ -1,4 +1,4 @@
-import { MapPin, Phone, Mail, Clock, Instagram, Facebook } from "lucide-react";
+import { Instagram } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -7,100 +7,24 @@ const Footer = () => {
       className="bg-primary text-primary-foreground py-16 px-4"
     >
       <div className="container mx-auto max-w-6xl">
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-          {/* Location */}
-          <div>
-            <a
-              href="https://maps.app.goo.gl/dwi2pCgxHPTQy5iK7"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-heading font-semibold mb-4 flex items-center gap-2 hover:text-accent transition-colors"
-            >
-              <MapPin className="w-5 h-5 text-accent" />
-              Placering
-            </a>
-            <a
-              href="https://maps.app.goo.gl/dwi2pCgxHPTQy5iK7"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-primary-foreground/80 hover:text-accent transition-colors leading-relaxed"
-            >
-              Strandvejen 72
-              <br />
-              Hellerup 2900
-            </a>
-          </div>
-
-          {/* Contact */}
-          <div>
-            <h4 className="font-heading font-semibold mb-4 flex items-center gap-2">
-              <Phone className="w-5 h-5 text-accent" />
-              Kontakt
-            </h4>
-            <div className="space-y-2 text-primary-foreground/80">
-              <p>
-                <a
-                  href="tel:+4531213201"
-                  className="hover:text-accent transition-colors"
-                >
-                  +45 31 21 32 01
-                </a>
-              </p>
-              <p>
-                <a
-                  href="mailto:cillelundqvist@gmail.com"
-                  className="hover:text-accent transition-colors"
-                >
-                  cillelundqvist@gmail.com
-                </a>
-              </p>
-              <p>
-                <a
-                  href="https://cille-lundqvist.planway.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-accent transition-colors"
-                >
-                  Online booking
-                </a>
-              </p>
-            </div>
-          </div>
-
-          {/* Hours */}
-          <div>
-            <h4 className="font-heading font-semibold mb-4 flex items-center gap-2">
-              <Clock className="w-5 h-5 text-accent" />
-              Åbningstider
-            </h4>
-            <div className="space-y-2 text-primary-foreground/80">
-              <p>Man - Fre: 9:00 - 18:00</p>
-              <p>Lørdag: 09:00 - 13:00 eller efter aftale</p>
-              <p>Søndag: Lukket</p>
-            </div>
-          </div>
+        <div className="text-center mb-8">
+          <h4 className="font-heading font-semibold mb-6 text-xl">Kontakt</h4>
+          <p className="text-primary-foreground/80 mb-4">
+            Interesseret i mine smykker? Kontakt mig på Instagram!
+          </p>
         </div>
 
         <div className="border-t border-primary-foreground/20 pt-8 mb-8">
           {/* Social Media */}
           <div className="flex justify-center gap-6">
             <a
-              href="https://www.instagram.com/cille_lundqvist"
+              href="https://www.instagram.com/thildes_lykke"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground hover:text-accent transition-colors"
               aria-label="Instagram"
             >
-              <Instagram className="w-6 h-6" />
-            </a>
-            <a
-              href="https://www.facebook.com/cille.olsen.9"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-primary-foreground hover:text-accent transition-colors"
-              aria-label="Facebook"
-            >
-              <Facebook className="w-6 h-6" />
+              <Instagram className="w-8 h-8" />
             </a>
           </div>
         </div>

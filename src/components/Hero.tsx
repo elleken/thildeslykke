@@ -1,4 +1,3 @@
-import { Phone } from "lucide-react";
 import heroImage768 from "@/assets/hero-salon-768.webp";
 import heroImage1280 from "@/assets/hero-salon-1280.webp";
 import heroImage1800 from "@/assets/hero-salon-1800.webp";
@@ -10,58 +9,30 @@ const Hero = () => {
       className="relative flex flex-col overflow-hidden"
       style={{ height: "80vh" }}
     >
-      {/* Background Image */}
+      {/* Background Image - Smykker */}
       <div className="absolute inset-0 z-0">
         <img
           src={heroImage1280}
           srcSet={`${heroImage768} 768w, ${heroImage1280} 1280w, ${heroImage1800} 1800w`}
           sizes="100vw"
-          alt="Smuk hårfarve og styling"
+          alt="Thildes håndlavede smykker"
           decoding="async"
           loading="eager"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/10 to-black/30"></div>
+        <div className="absolute inset-0 bg-black/50"></div>
       </div>
 
       {/* Content */}
       <div className="relative z-10 flex-1 flex flex-col items-center justify-center px-4">
-        {/* CTA Cards */}
-        <div className="w-full max-w-lg px-4 grid grid-cols-2 gap-4">
-          {/* Book nu */}
-          <div className="bg-white/60 backdrop-blur-md rounded-2xl p-5 flex flex-col items-center text-center shadow-lg">
-            <h3 className="text-lg font-heading font-semibold text-foreground mb-1">
-              Book nu
-            </h3>
-            <p className="text-sm text-foreground mb-3">
-              Bestil tid nemt online
-            </p>
-            <a
-              href="https://cille-lundqvist.planway.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-full py-2.5 bg-primary text-primary-foreground rounded-lg font-medium text-sm hover:opacity-90 transition-all uppercase tracking-wide flex items-center justify-center gap-2"
-            >
-              <Phone className="w-4 h-4" />
-              Book nu
-            </a>
-          </div>
-          {/* Ring nu */}
-          <div className="bg-white/60 backdrop-blur-md rounded-2xl p-5 flex flex-col items-center text-center shadow-lg">
-            <h3 className="text-lg font-heading font-semibold text-foreground mb-1">
-              Ring nu
-            </h3>
-            <p className="text-sm text-foreground mb-3">
-              Ring og bestil tid i dag
-            </p>
-            <a
-              href="tel:+4531213201"
-              className="w-full py-2.5 bg-primary text-primary-foreground rounded-lg font-medium text-sm hover:opacity-90 transition-all uppercase tracking-wide flex items-center justify-center gap-2"
-            >
-              <Phone className="w-4 h-4" />
-              Ring nu
-            </a>
-          </div>
+        {/* Hovedtekst */}
+        <div className="text-center">
+          <h1 className="text-5xl md:text-6xl font-heading font-bold text-white mb-4">
+            Thildes Lykke
+          </h1>
+          <p className="text-xl md:text-2xl text-white/90">
+            Håndlavede smykker skabt med kærlighed
+          </p>
         </div>
       </div>
     </section>

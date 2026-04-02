@@ -6,20 +6,36 @@ import productStyling580 from "@/assets/product-styling-580.webp";
 const Products = () => {
   const products = [
     {
-      name: "NATULIQUE Colour Shield Hairwash",
+      name: "Guldbelagt Armbånd",
       image: productShampoo580,
       srcSet: `${productShampoo320} 320w, ${productShampoo580} 580w`,
       description:
-        "En mild, certificeret økologisk shampoo der beskytter og vedligeholder farvet hår. Med açaibær, timianekstrakt og silkeprotein, der forsegler hårstrået og sikrer langvarig farve. 95% naturlige ingredienser, uden parabener og silicone.",
-      category: "Hårpleje",
+        "Et delikat armbånd i guldbelagt sølv. Håndlavet med kærlighed og perfekt til daglig brug eller som et særligt gaveide.",
+      category: "Armbånde",
     },
     {
-      name: "NATULIQUE Colour Shield Conditioner",
+      name: "Minimalistiske Øreringe",
       image: productStyling580,
       srcSet: `${productStyling320} 320w, ${productStyling580} 580w`,
       description:
-        "En certificeret økologisk balsam der beskytter farvet hår med tempeltræekstrakt, açaibær og silkeprotein. Forsegler hårstrået, modvirker krus og bevarer farven længere. 95% naturlige ingredienser, uden parabener og silicone.",
-      category: "Hårpleje",
+        "Enkle og elegante øreringe i sølv. Designet for at passe til enhver stil – lige fra klassisk til moderne.",
+      category: "Øreringe",
+    },
+    {
+      name: "Perlehalskæde",
+      image: productShampoo580,
+      srcSet: `${productShampoo320} 320w, ${productShampoo580} 580w`,
+      description:
+        "En smuk halskæde med hvide ferskvandperler. Tidløs elegance der sætter et fint punkt til ethvert outfit.",
+      category: "Halskæder",
+    },
+    {
+      name: "Bohemisk Armbånd",
+      image: productStyling580,
+      srcSet: `${productStyling320} 320w, ${productStyling580} 580w`,
+      description:
+        "Et farverigt armbånd med naturlige perler og træ. Inspireret af bohemisk stil – unikt og fuldt af karakter.",
+      category: "Armbånde",
     },
   ];
 
@@ -28,12 +44,11 @@ const Products = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-heading font-bold mb-6">
-            Produkter
+            Mine Smykker
           </h2>
           <div className="w-24 h-1 bg-primary mx-auto mb-8"></div>
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Jeg arbejder med Natulique – en eksklusiv og bæredygtig
-            hårplejeserie af høj kvalitet.
+            Hver smykke er håndlavet med omsorg og kreativitet. Udforsk min kollektion af unika stykker.
           </p>
         </div>
 
